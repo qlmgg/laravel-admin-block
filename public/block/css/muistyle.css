@@ -1,0 +1,92 @@
+.area {
+    margin: 20px auto 0px auto;
+}
+
+.mui-input-group {
+    margin-top: 10px;
+}
+
+.mui-input-group:first-child {
+    margin-top: 20px;
+}
+
+.mui-input-group label {
+    width: 22%;
+}
+
+.mui-input-row label ~ input,
+.mui-input-row label ~ select,
+.mui-input-row label ~ textarea {
+    width: 78%;
+}
+
+.mui-checkbox input[type=checkbox],
+.mui-radio input[type=radio] {
+    top: 6px;
+}
+
+.mui-content-padded {
+    margin-top: 25px;
+}
+
+.mui-btn {
+    padding: 10px;
+}
+
+.link-area {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.spliter {
+    color: #bbb;
+    padding: 0px 8px;
+}
+
+.oauth-area {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.oauth-area .oauth-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0px 20px;
+    /*-webkit-filter: grayscale(100%); */
+    border: solid 1px #ddd;
+    border-radius: 25px;
+}
+
+.oauth-area .oauth-btn:active {
+    border: solid 1px #aaa;
+}
+
+.oauth-area .oauth-btn.disabled {
+    background-color: #ddd;
+}
+
+
+/*other-Personal-Center*/
+.Personal_topbg{height: 250px;background:#3EA0FB;}
+.Personal_uerimg{display: block;margin: auto;width: 90px;padding-top: 50px;}
+.Personal_top_text{width: 33%;text-align: center;margin-top: 10px;color: #FFFFFF;}
+.Personal_top_span{font-size: 13px;}
+.Personal_dingdan{margin: 10px;height: 120px;background: #FFFFFF;border-radius: 15px;margin-top: -40px;}
+.Personal_mydd{padding-left: 10px;padding-top: 10px;}
+.Personal_mydd_colo{font-size: 25px;color:#DDAD69;margin-right: 10px;}
+.Personal_mydd_span{font-size: 15px;}
+.Personal_mydd_div{text-align: center;width: 25%;}
+.Personal_mydd_p{margin-top: 5px;font-size: 11px;}
+.Personal_ul{margin: 10px;border-radius: 10px;}
+.Personal_ul_icon{font-size: 22px;color:#6E91AC ;}
+.Personal_mdyy_div2{text-align: center;width: 25%;margin-top: -7px;}

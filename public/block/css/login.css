@@ -1,0 +1,116 @@
+.page-hd,.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+.row_div{
+    display: flex;
+    align-items: center;
+}
+.weui-cells{
+    margin-left: .2rem;
+    margin-right: .2rem;
+    background: rgba(197,80,28, 0.85);
+    border-radius: 10px;
+}
+.Box{
+    width: .9rem;
+    text-align: center;
+}
+.row_div{
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+.row_div .weui-cell{
+    flex: 1;
+}
+.chkPwd{
+    /*padding-right: .2rem;*/
+    width: 100%;
+    height: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.butBox .but{
+    margin-left: .2rem;
+    margin-right: .2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.fwDiv{
+    display: flex;
+    align-items: center;
+}
+.findpwd{
+    margin-left: .2rem;
+    margin-right: .2rem;
+    text-align: right;
+    display: inline-block;
+    width: 1rem;
+    border-left: 1px solid;
+    font-weight: normal;
+}
+.row_div .weui-cell__bd p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.butBox .but{
+    background: #f8584f;
+    /*box-shadow: 0 0 5px 0px #f8584f;*/
+}
+.register .but{
+    margin-top: 0;
+    border: 1px solid #854343;
+    background: rgba(133, 67, 67, 1);
+    color: #f4c300;
+    /*box-shadow: 0 0 10px 0px #854343;*/
+}
+.tipDiv{
+    display: flex;
+}
+.send{
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 54%;
+}
+.chkPwd span{
+    color: rgba(244, 195, 0, 1);
+    padding-left: 5px;
+}
+.tipRegDiv{
+    height: .6rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tipRegDiv .findpwd{
+    width: 1.2rem;
+    display: inline-block;
+    height: .2rem;
+    line-height: .2rem;
+    border: 0;
+}
+.logoImgDiv{
+    margin-left: .2rem;
+    margin-right: .2rem;
+    margin-bottom: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoImg{
+    width: 1.2rem;
+}
+
+
+/*样式重置2019-12-27 15:26:03*/
+.weui-cell:before {
+    border: none;
+}
+.color_6 {
+    color: #FFF;
+}
+.color_r {
+    color: rgba(244, 195, 0, 1);
+}

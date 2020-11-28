@@ -1,0 +1,104 @@
+/* 重置通用样式*/
+.header {
+    margin: 0;
+}
+.page-hd {
+    background-color: rgba(197,80,28, 0.85);
+}
+.page-bd {
+    background: none;
+}
+
+/* 隐藏顶部浮动栏选项  */
+
+body {
+    position: static !important;
+    top: 0px !important;
+}
+
+iframe.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+    overflow: hidden;
+}
+
+.goog-te-balloon-frame {
+    display: none !important;
+}
+/*使原始文本弹出窗口隐藏*/
+
+.goog-tooltip {
+    display: none !important;
+}
+
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* 语言选择框颜色 */
+
+.goog-te-combo {
+    background-color: #848CB5;
+    border-radius: 8px;
+}
+
+
+.left-arrow:before {
+    border: 0.006667rem solid #FFF;
+    border-width: 0.006667rem 0 0 0.006667rem;
+}
+.header-title {
+    color: #FFF;
+}
+.weui-cells {
+    background: none;
+}
+.weui-cell {
+    background-color: rgba(197,80,28, 0.65);
+}
+.color_3 {
+    color: #FEE900;
+}
+.color_9 {
+    color: #FFF;
+}
+
+.PIGmoney .top,.PIGmoney .boxlist .box,.PIGmoney .weifenTips {
+    background-color: rgba(197,80,28, 0.65);
+}
+
+.page-bd {
+    background: none;
+}
+
+
+.middle {
+    height: 0.866667rem;
+    line-height: 0.866667rem;
+}
+
+button {
+    background-color: #f4c300;
+}
+.middle{
+    display: flex;
+    align-items: center;
+}
+.color_r {
+    color: #FFF;
+}
+button {
+    border: none;
+}

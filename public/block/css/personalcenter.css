@@ -1,0 +1,109 @@
+/* 隐藏顶部浮动栏选项  */
+
+body {
+    position: static !important;
+    top: 0px !important;
+}
+
+iframe.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+    overflow: hidden;
+}
+
+.goog-te-balloon-frame {
+    display: none !important;
+}
+/*使原始文本弹出窗口隐藏*/
+
+.goog-tooltip {
+    display: none !important;
+}
+
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* 语言选择框颜色 */
+
+.goog-te-combo {
+    background-color: #848CB5;
+    border-radius: 8px;
+}
+.bottom-tabbar {
+    background: none;
+}
+.avatar-box {
+    margin-top: -40px;
+}
+.avatar-box img {
+    width: 80px;
+    height: 80px;
+}
+.username {
+    font-size: 0.3rem;
+}
+.level_name {
+    color: #FF5D00;
+    padding-left: 20px;
+}
+.fs24 {
+    font-size: 0.18rem;
+    font-weight: bold;
+}
+.avatar-box {
+    margin-top: -40px;
+}
+.avatar-box img {
+    width: 80px;
+    height: 80px;
+}
+.username {
+    font-size: 0.3rem;
+}
+.level_name {
+    color: #FF5D00;
+    padding-left: 20px;
+}
+.fs24 {
+    font-size: 0.18rem;
+    font-weight: bold;
+}
+
+
+
+.logBox .scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.logBox .scroll .img-box {
+    width: 0.5rem;
+}
+.logBox .scroll img {
+    width: 0.35rem;
+    margin-left: 0.1rem;
+}
+.logBox .scroll .notice-text {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin: 0 0.15rem;
+    overflow: hidden;
+    color: #FFF;
+}

@@ -1,0 +1,104 @@
+.page-bd{
+    /*background: url(../images/bgImg.png) no-repeat;*/
+    background-size: 100% auto;
+    overflow: hidden;
+}
+.inivteFriend .top {
+    position: relative;
+    height: 2rem;
+    background: rgba(197,80,28, 0.65);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.inivteFriend .top p {
+    padding: .05rem .1rem;
+    color: #ef9e0a;
+    border-radius: 1rem;
+    border: 1px solid #ef9e0a;
+    font-size: .1rem;
+}
+.inivteFriend .top p:nth-child(2){
+    margin-left: .4rem;
+}
+.inivteFriend .bottom{
+    height: calc(100% - 2rem);
+    overflow: auto;
+}
+.tlCard {
+    position: relative;
+    padding: .1rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    margin-top: .2rem;
+    -webkit-box-shadow: 0 0 0 #F4F4F4;
+    box-shadow: 0 0 0 #F4F4F4;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: .2rem;
+    font-size: .2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: auto;
+    line-height: normal;
+}
+.tl_left {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.tl_left p,.tl_middle p{
+    height: .4rem;
+    line-height: .4rem;
+}
+
+.tl_left p:nth-child(1) {
+    /*color: #199AFF;*/
+    color: #ef9e0a;
+}
+
+.tl_left p:nth-child(2) {
+    /*color: #999;*/
+    color: #ef9e0a;
+}
+
+.tl_middle {
+    margin-left: .1rem;
+    margin-right: .1rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #FF4818;
+    text-align: right;
+}
+.layui-colla-content{
+    padding: 0 15px;
+}
+.layui-badge-rim, .layui-colla-content, .layui-colla-item, .layui-collapse, .layui-elem-field, .layui-form-pane .layui-form-item[pane], .layui-form-pane .layui-form-label, .layui-input, .layui-layedit, .layui-layedit-tool, .layui-quote-nm, .layui-select, .layui-tab-bar, .layui-tab-card, .layui-tab-title, .layui-tab-title .layui-this:after, .layui-textarea{
+    border: 0;
+}
+.layui-icon{
+    display: none;
+}
+.weui-loadmore{
+    color: #fff;
+}
+.icon_p{
+    display: block;
+}
+.loadmore,.loadLink{
+    display: none;
+}
+.txtTime{
+    color: #999;
+}

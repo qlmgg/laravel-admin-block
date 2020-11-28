@@ -1,0 +1,290 @@
+
+/*主体*/
+.main {
+  /*position: absolute;
+  left: 0;
+  bottom: 0;*/
+ margin-top: 1rem;
+  width: 100%;
+  /*height: 12rem;*/
+}
+.rule,
+.my {
+  position: absolute;
+  top: 0.4rem;
+  width: 1.6rem;
+  height: 0.6rem;
+  background: no-repeat center / contain;
+}
+.rule {
+  left: 2.26666667rem;
+  background-image: url("../../images/choujiang/rule.png");
+}
+.my {
+  right: 2.26666667rem;
+  background-image: url("../../images/choujiang/my.png");
+}
+/*游戏盒子*/
+.box_s {
+  position: relative;
+  margin-bottom: .4rem;
+  /*left: 0.4rem;
+  top: 1.25333333rem;*/
+  width: 100%;
+  height: 8.02666667rem;
+  /*background-image: url("../image/choujiang.png");*/
+}
+/*.coin {
+  position: absolute;
+  left: 0.4rem;
+  top: -0.53333333rem;
+  width: 1.50666667rem;
+  height: 1rem;
+  background-image: url("../image/coin.png");
+  -o-animation: jump .5s linear infinite alternate;
+  -ms-animation: jump .5s linear infinite alternate;
+  -moz-animation: jump .5s linear infinite alternate;
+  -webkit-animation: jump .5s linear infinite alternate;
+  animation: jump .5s linear infinite alternate;
+}
+@keyframes jump {
+  100% {
+    top: -0.66666667rem;
+  }
+}*/
+.box_s h2 {
+  margin-top: 0.42666667rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #fff;
+}
+.txtChange{
+	text-align: center;
+	color: #ffe400;
+}
+.txtChange p{
+	padding: .1rem .2rem;
+	display: inline-block;
+	border-radius: 1rem;
+	background: #b6bb74;
+	border: 2px solid #6a5c36;
+    font-size:.4rem;
+}
+#change {
+  color: #ffe400;
+}
+/*游戏区域*/
+.play {
+  position: relative;
+  /*left: 50%;
+  top: 50%;*/
+  z-index: 1;
+  /*margin: -2.73333333rem 0 0 -4rem;*/
+  width: 100%;
+  /*height: 5.86666667rem;*/
+}
+.play li {
+  position: relative;
+  float: left;
+  margin: 0.08rem 0 0 0.09333333rem;
+  width: 24%;
+  height: 1.86666667rem;
+  background-image: url("../../images/choujiang/normal.png");
+  background-size: 100% 100%;
+}
+/*.play li:nth-child(4) {
+  left: 5.28rem;
+}
+.play li:nth-child(6) {
+  top: 1.94666667rem;
+}
+.play li:nth-child(7) {
+  left: 2.64rem;
+}
+.play li:nth-child(8) {
+  left: -2.64rem;
+}
+.play li:nth-child(9) {
+  left: -5.28rem;
+  top: -1.94666667rem;
+}*/
+.play li div {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*奖品图片大小*/
+.play li div img {
+	width: 1.4rem;
+	height: 1.4rem;
+  /*width: 2.54666667rem;
+  height: 1.86666667rem;*/
+}
+.play li:nth-child(1) div img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.play li:nth-child(2) div img{
+	width: 1.8rem;
+	height: auto;
+}
+.play li:nth-child(5) div img,.play li:nth-child(6) div img,.play li:nth-child(7) div img{
+	width: 1.8rem;
+	height: 1.8rem;
+}
+.play li div p {
+ /* position: absolute;
+  left: 50%;
+  bottom: 0.13333333rem;
+  margin-left: -1.28rem;*/
+  width: 100%;
+  font-size: 0.29333333rem;
+  color: #c14600;
+  line-height:1.8rem;
+  font-size:0.4rem;
+  font-weight:bold;
+  
+}
+.play li.select {
+  /*background-image: url("../../images/choujiang/select.png");*/
+}
+/*开始按钮*/
+#btn {
+  /*background-image: url("../image/start.png");*/
+}
+.btnDiv{
+	margin-top:1rem;
+	text-align: center;
+}
+.btnImg{
+	width: 5rem;
+	height: auto;
+}
+/*头部*/
+.headerImg{
+	width: 100%;
+	height: auto;
+}
+/*规则弹窗背景色*/
+#mask_rule{
+	position: relative;
+	margin: 0 .2rem;
+  padding: 0 .2rem;
+	background: url(../../images/choujiang/tipBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+#mask_rule .box_rule{
+	padding-bottom: .3rem;
+	text-align: center;
+}
+#mask_rule .tipTitleDiv{
+	position: absolute;
+  top: -.5rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#mask_rule .tipTitle{
+	width: 6rem;
+	height: auto;
+}
+#mask_rule .box_rule .tipText{
+	margin: .3rem 0;
+	width: 4rem;
+	height: auto;
+}
+#mask_rule .box_rule p{
+	text-align: left;
+	/*height: .6rem;*/
+  line-height: .6rem;
+  font-size: .4rem;
+  color: #505346;
+}
+#card .win{
+  background: #E8EBAE;
+  color: #7B804B;
+  background-image: none;
+  width: 70%;
+  border-radius: .4rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+  font-size: .6rem;
+  text-align: center;
+}
+.winning .red-body{
+	top: -2.4rem;
+	text-align: center;
+}
+.winning .red-head {
+  top: .8rem;
+}
+.red-body .winImg{
+	position: absolute;
+    left: 50%;
+    margin-left: -.7rem;
+    margin-top: 1.2rem;
+	width: 1.4rem;
+	height: auto;
+}
+.winning .btn {
+	bottom: .8rem;
+    margin-left: -.8rem;
+    background-image: none;
+    background: #FFFA9C;
+    color: #A5A764;
+    border-radius: .1rem;
+    width: 1.6rem;
+    text-align: center;
+    font-size: .24rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    letter-spacing: .1rem;
+}
+.winning{
+	display: block;
+}
+.failDiv{
+	display: none;
+}
+#mask.fail .blin{
+	background-image: url(../../images/choujiang/gold1.png);
+}
+#mask.fail .caidai{
+	display: none;
+}
+#mask.fail .failDiv{
+	position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  margin-top: -3rem;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+}
+#mask.fail .failImg{
+	width: 5rem;
+	height: auto;
+}
+#mask.fail .btnFail{
+	position: absolute;
+	bottom: .2rem;
+	left: 50%;
+	margin-left: -1.4rem;
+	background-image: none;
+	background: #999;
+	color: #666;
+	border-radius: .2rem;
+	width: 3rem;
+	text-align: center;
+	font-size: .4rem;
+	line-height: 0.94666667rem;
+	letter-spacing: .1rem;
+}
+#mask.fail #close{
+	/*right: 1rem;*/
+}

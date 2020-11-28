@@ -1,0 +1,126 @@
+.kaijiang{
+    background: #f55231 !important;
+}
+.fanzhi{
+    background: #3dccb4 !important;
+}
+.gotolog{
+    margin: 10px auto;
+    display: block;
+    background: #22e484;
+    border: 0px;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 3px;
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    min-width: 60px;
+    width: 30%;
+    font-size: 15px;
+}
+/* 隐藏顶部浮动栏选项  */
+.goog-logo-link { display:none !important; }
+.goog-te-gadget { color: transparent !important; overflow: hidden;}
+.goog-te-balloon-frame{display: none !important;}
+
+/*使原始文本弹出窗口隐藏*/
+.goog-tooltip {display: none !important;}
+.goog-tooltip:hover {display: none !important;}
+.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}
+
+/* 语言选择框颜色 */
+.goog-te-combo {background-color:#848CB5; border-radius:8px;}
+.index .page-bd .piglist .box .pigimg{
+    border-bottom:0rem;
+}
+.index .page-bd .piglist .box .info div span{
+    color: #FFF;
+    padding-left: 10px;
+}
+.index .page-bd .piglist .box .button{
+    border-radius: 15px;
+}
+
+body .layer_bg .layui-layer-content{
+    background-color: #eaf3fd;
+    text-align: left;
+}
+
+
+.rule-box {
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+    top: 41%;
+    z-index: 30;
+}
+.rule-box img {
+    width: 20px;
+}
+.rule-box .text {
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+<!-- 移动端适配 -->
+ #mask{
+     display: block;
+ }
+.outerDiv{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+#success .winning .red-head{
+    text-align: center;
+    line-height: 3rem;
+    letter-spacing: .02rem;
+    font-size: .3rem;
+    color: #7B804B;
+    font-weight: bold;
+}
+#success{
+    display: none;
+}
+#fail{
+    display: none;
+}
+#fail .winning .red-head{
+    text-align: center;
+    line-height: 2.8rem;
+    letter-spacing: .02rem;
+    font-size: .4rem;
+    color: #999;
+    font-weight: bold;
+}
+#fail .btn{
+    color: #eee;
+    background: #A6A6A6;
+}
+
+#fail .winning #card{
+    background-image:none;
+}
+#fail .red-body .winImg{
+    width: 2rem;
+    margin-left: -.9rem;
+    margin-top: 1.4rem;
+}
+.imgBox {
+    margin: 20px;
+    text-align: center;
+}
+.imgBox img {
+    display: inline-block;
+    width:70%;
+}
+.piglist {
+    margin-top: 0.2rem;
+}

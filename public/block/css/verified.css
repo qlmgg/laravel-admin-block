@@ -1,0 +1,60 @@
+/* 隐藏顶部浮动栏选项  */
+body { position: static !important; top:0px !important; }
+iframe.goog-te-banner-frame { display: none !important; }
+.goog-logo-link { display:none !important; }
+.goog-te-gadget { color: transparent !important; overflow: hidden;}
+.goog-te-balloon-frame{display: none !important;}
+
+/*使原始文本弹出窗口隐藏*/
+.goog-tooltip {display: none !important;}
+.goog-tooltip:hover {display: none !important;}
+.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}
+
+/* 语言选择框颜色 */
+.goog-te-combo {background-color:#848CB5; border-radius:8px;}
+#head_pic{
+    width: 100%;
+}
+.uploadImg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bodybg-alert {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    background: #000000;
+    filter: alpha(opacity:50);
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+}
+
+.bodybg-alert-content {
+    position: fixed;
+    height: 40px;
+    line-height: 40px;
+    top: 50%;
+    width: 100%;
+    z-index: 99999;
+    text-align: center;
+}
+
+.bodybg-alert-content span {
+    background: #FFFFFF;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 120px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.page-bd {
+    overflow: auto;
+}
