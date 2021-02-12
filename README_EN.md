@@ -1,3 +1,7 @@
+[中文文档](./README.md)
+
+[英文文档](./README_EN.md)
+
 Open source address: https://github.com/tp5er/laravel-admin-block
 
 introduce
