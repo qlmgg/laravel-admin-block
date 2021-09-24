@@ -115,3 +115,7 @@ php artisan route:clear
 2.  切勿使用本系统进行商业使用，本人概不负责
 3.  非商业纯技术学习项目，自行研究，不提供技术支持！不提供技术支持！不提供技术支持！
 
+# QQ交流群
+
+[99208965](https://qm.qq.com/cgi-bin/qm/qr?k=CpYnmru9AM_T3KBJbjd1HXkpLSVxD6ww&jump_from=webapi)
+
