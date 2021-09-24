@@ -98,3 +98,8 @@ statement
 This project is purely involved in the laravel project and is not for commercial use
 Do not use this system for commercial use, I am not responsible
 Non commercial pure technology learning project, self research, no technical support! No technical support! No technical support!
+
+# QQ交流群
+
+[99208965](https://qm.qq.com/cgi-bin/qm/qr?k=CpYnmru9AM_T3KBJbjd1HXkpLSVxD6ww&jump_from=webapi)
+
